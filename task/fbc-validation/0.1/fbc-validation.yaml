@@ -26,7 +26,7 @@ spec:
     - name: workspace
   steps:
     - name: extract-and-check-binaries
-      image: quay.io/redhat-appstudio/hacbs-test:v1.1.1@sha256:81acb2ba5e819b7d155ced648e48161e5f7e2bae5c0e4a0bab196651a9044afe
+      image: quay.io/redhat-appstudio/hacbs-test:v1.1.5@sha256:8b3e395b66f07e65eaf65165a4ab097daf035d1a364244bce5d19aa812223f2f
       workingDir: $(workspaces.workspace.path)/hacbs/$(context.task.name)
       env:
         - name: IMAGE_URL
