@@ -27,7 +27,7 @@ spec:
         optional: true
   steps:
     - name: send-message
-      image: registry.access.redhat.com/ubi9/ubi-minimal:9.2-717@sha256:dc02c6aa8199beb8ed13312d7116a94aa87b5412886bbe358845d3f0626c0f1e
+      image: registry.access.redhat.com/ubi9/ubi-minimal:9.2-750.1697625013@sha256:b40f52aa68b29634ff45429ee804afbaa61b33de29ae775568933c71610f07a4
       volumeMounts:
         - name: webhook-secret
           mountPath: "/etc/secrets"
