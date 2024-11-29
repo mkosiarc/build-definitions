@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8:8.8-1032
+FROM registry.access.redhat.com/ubi8:8.8-1067.1698056881
 
 ARG syft_version="0.85.0"
 
